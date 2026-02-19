@@ -1,2 +1,4 @@
 img/
 downloads/
+.env
+venv/
