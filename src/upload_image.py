@@ -5,7 +5,9 @@ from datetime import datetime, timezone
 
 from aws_clients import s3_client, ddb_table
 
-S3_BUCKET = "animal-images-jeison-2026"
+S3_BUCKET = os.getenv("S3_BUCKET")
+if not S3_BUCKET:
+    raise ValueError("Missing S3_BUCKET in .env")
 
 def upload_image(file_path: str, animal: str) -> dict:
     s3 = s3_client()
