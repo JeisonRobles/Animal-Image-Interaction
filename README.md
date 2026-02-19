@@ -1,4 +1,10 @@
 # ANIMAL IMAGE INTERACTION WITH DYNAMO DB AND S3 + STREAMS + LAMBDA
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+  <img src="img/dog1.png" width="200">
+  <img src="img/castor1.png" width="200">
+  <img src="img/cat.png" width="200">
+</div>
+
 ---
 Developed by Jeison Robles Arias</br>
 [Lets Connect on LinkedIn](https://www.linkedin.com/in/jeison-robles-arias-6ab8a9ba/?locale=en-US)</br>
